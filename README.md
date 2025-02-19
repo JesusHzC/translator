@@ -1,12 +1,12 @@
 ## Translator App
 
-Translate text or record audio to many languages.
+Translate text or record audio into many languages.
 
 ## Technologies Used
 
 - KMP (Kotlin Multiplatform)
 - Jetpack Compose
-- SwiftUi
+- SwiftUI
 - Clean Code  
 - SQLite
 - Ktor
@@ -18,11 +18,11 @@ Translate text or record audio to many languages.
   <img src="./screens/record.png" height="550">
 </p>
 
-## Instalation
-  - Install [KDoctor]([https://linktodocumentation](https://github.com/Kotlin/kdoctor)) and follow environment setup
-  - Install JDK 17
-  - To Run IOS APP you need add your apple id to XCode with Apple developer account to certificate the application
-  - Note: API used in this APP is PRIVATE, you need to create NetworkConstants in Shared Module -> commonManin -> NetworkConstants to get successfuled build
+## Installation
+  - Install [KDoctor](https://github.com/Kotlin/kdoctor) and follow the environment setup.
+  - Install JDK 17 and configure Android Studio's JDK with this version.
+  - To run the iOS app, you need to add your Apple ID to Xcode with an Apple Developer account to certify the application.
+  - **Note:** The API used in this app is **private**, you need to create `NetworkConstants` in the `shared` -> `commonMain` -> `NetworkConstants` to successfully build the project.
 ```kotlin
 object NetworkConstants {
     const val BASE_URL = "https://url-api"
